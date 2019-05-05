@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Amit",
+      "lastName": "Singh",
+      "age": 25,
+      "mobileNumber": "8965895689",
+      "email": "amit@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "firstName": "Anand",
+      "lastName": "Prabhu",
+      "age": 26,
+      "mobileNumber": "9995895689",
+      "email": "anand@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "firstName": "Pawan",
+      "lastName": "Murthy",
+      "age": 23,
+      "mobileNumber": "8956895689",
+      "email": "pawan@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "firstName": "Rahul",
+      "lastName": "Pal",
+      "age": 22,
+      "mobileNumber": "7889568956",
+      "email": "rahul@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
