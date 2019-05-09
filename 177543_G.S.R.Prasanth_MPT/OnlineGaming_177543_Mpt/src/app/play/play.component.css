@@ -1,0 +1,17 @@
+table{
+ display: block;
+ overflow-x: auto;
+}
+tr {
+}
+td {
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+}
+.play-list {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 20px;
+}

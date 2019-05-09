@@ -1,0 +1,26 @@
+<div style="padding:200px;">
+
+<!--Main Display page for GameCIty-->
+  <div class="play-list" *ngIf="playList">
+     <!-- displaying title -->
+     <!--retreiving data using string interpolation-->
+<h3><b>Welcome to Game City! Your Card Balance Amount is Rs.{{amount}}</b></h3>
+ <!-- Creating table to access data in clear view and understand the data -->
+
+<table style="text-align:center;" *ngFor='let game of playList'>
+  <tbody>
+  <tr>
+        <!-- Accessing data entered in json server here by using ngFor property
+              and copying whole array data in game object and displaying them one by one -->
+
+  <td style="width: 10%">{{game.id}}</td>
+  <td style="width: 40%">{{game.name}}</td>
+  <td style="width: 20%">{{game.price}}</td>
+<td style="width: 30%"><a (click)="playGame(game)" 
+  style="text-decoration:black underline"><b>PlayNow</b></a></td>
+&nbsp;
+</tr>
+</tbody>
+</table>
+</div>
+</div>
